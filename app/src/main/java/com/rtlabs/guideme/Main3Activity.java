@@ -108,8 +108,8 @@ public class Main3Activity extends AppCompatActivity {
         Bo.addDestination(M, 2.1);
         Bo.addDestination(N, 2.5);
 
-        N.addDestination(Bo, 2.5);
-        N.addDestination(T, 2.5);
+        //N.addDestination(Bo, 2.5);
+        //N.addDestination(T, 2.5);
 
         Bundle b = this.getIntent().getExtras();
         String[] nodelist = b.getStringArray("z");
